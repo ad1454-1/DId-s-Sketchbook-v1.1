@@ -4,7 +4,8 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-lightgrey.svg)](https://www.microsoft.com/windows)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> 一键生成角色表情对话框，自动粘贴发送至 QQ / 微信。无需安装 Python 或任何运行环境。
+> 对中文 Vocaloid 成员（洛天依、乐正绫、言和、墨清弦）做深度适配，支持切换输出字体。<br>
+> 一键生成角色表情对话框，自动粘贴发送至 QQ / 微信。无需安装任何运行环境。
 
 ![首页](img/0首页.png)
 
@@ -20,7 +21,7 @@
 
 ### 方式一：直接运行（推荐，无需安装 Python）
 
-从 [Releases](https://github.com/ad1454-1/Dld-s-Sketchbook-v1.0.0/releases) 下载 `DldSketchbook.zip`，解压后：
+从 [Releases](https://github.com/ad1454-1/DId-s-Sketchbook-v1.1/releases/tag/v1.1) 下载 `DldSketchbook.zip`，解压后：
 
 1. 右键 `DldSketchbook.exe` → （推荐）**以管理员身份运行**
 2. 首次切换会自动渲染全部场景，看到这种样式时，请稍等片刻：
@@ -34,8 +35,8 @@
 ### 方式二：源码运行
 
 ```bash
-git clone https://github.com/ad1454-1/Dld-s-Sketchbook-v1.0.0.git
-cd Dld-s-Sketchbook-v1.0.0
+git clone https://github.com/ad1454-1/DId-s-Sketchbook-v1.1.git
+cd DId-s-Sketchbook-v1.1
 pip install -r requirements.txt
 python main.py
 ```
@@ -107,7 +108,7 @@ QQ 等社交软件接收后自动识别为图片，无需额外操作。
 ## 📂 项目结构
 
 ```
-Dld-s-Sketchbook-v1.0.0/
+DId-s-Sketchbook-v1.1/
 ├── main.py              # 程序入口，热键监听 + 生成调度
 ├── ui.py                # 完整 GUI 界面（角色图库 + 配置面板）
 ├── text_fit_draw.py     # 文字自适应缩放与渲染引擎
