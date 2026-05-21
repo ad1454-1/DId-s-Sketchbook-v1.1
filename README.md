@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > 对中文 Vocaloid 成员（洛天依、乐正绫、言和、墨清弦）做深度适配，支持切换输出字体。<br>
-> 一键生成角色表情对话框，自动粘贴发送至 QQ / 微信。无需安装任何运行环境。
+> 一键生成角色表情对话框，自动粘贴发送至 QQ / 微信。无需安装运行环境。
 
 ![首页](img/0首页.png)
 
@@ -13,7 +13,7 @@
 
 ## ⚡ 一句话概述
 
-选中一个角色和表情，按下热键，程序自动将当前输入框的内容渲染到角色底图上，生成 GIF 并粘贴发送。四角色、13 种表情、零手动操作。
+选中一个角色和表情，按下热键，程序自动将当前输入框的内容渲染到角色底图上，生成 GIF 并粘贴发送。四名角色、13 种表情、零手动操作。
 
 ***
 
@@ -21,7 +21,7 @@
 
 ### 方式一：直接运行（推荐，无需安装 Python）
 
-从 [Releases](https://github.com/ad1454-1/DId-s-Sketchbook-v1.1/releases/tag/v1.1) 下载 `DldSketchbook.zip`，解压后：
+从 [Releases](https://github.com/ad1454-1/DId-s-Sketchbook-v1.1/releases/tag/v1.1) 下载 `Dld_s_Sketchbook_v1.1.zip`，解压后：
 
 1. 右键 `DldSketchbook.exe` → （推荐）**以管理员身份运行**
 2. 首次切换会自动渲染全部场景，看到这种样式时，请稍等片刻：
@@ -90,7 +90,7 @@ python main.py
 
 ![内存占用](img/6占用低.png)
 
-> 稳定运行内存控制在 100 MB 以内，四角色全加载。
+> 稳定运行内存控制在 100 MB 以内，四名角色全加载。
 
 ***
 
@@ -141,7 +141,7 @@ DId-s-Sketchbook-v1.1/
 
 ***
 
-## 📄 许可证2
+## 📄 许可证
 
 [MIT License](LICENSE)
 
