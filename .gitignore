@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.manifest
+*.spec
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Project specific
+logs/
+temp_output.gif
+*.exe
+icon.ico
+
+# 个人笔记 / 调试产物
+冬里代*
+首页_*
+debug_export/
+01.png
+
+# 调试工具（开发期辅助脚本）
+tools/export_homepage_optimized_preview.py
+tools/annotate_homepage_components.py
+tools/show_structure.py
+tools/png_to_ico.py
+tools/__pycache__/
+tools/build.py
+tools/build_optimized.py
+
+# config.yaml — 个人配置不入库，程序首次启动自动使用默认值
+config.yaml
